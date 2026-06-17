@@ -2,7 +2,7 @@
 
 import java.util.Scanner ; 
 
-public class CountDigits{
+public class _01_LenthOfDigit{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
 
@@ -14,6 +14,8 @@ public class CountDigits{
             count ++ ; 
         }
         System.out.println("total digits in number is "+ count);
+
+        sc.close();
         
     }
 }

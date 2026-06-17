@@ -2,7 +2,7 @@
 
 import java.util.Scanner ; 
 
-public class SumOfDigits{
+public class _02_SumOfDigits{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
 
@@ -17,6 +17,7 @@ public class SumOfDigits{
 
         }
         System.out.println("sum of digit is "+ sum);
+        sc.close();
 
         
     }
